@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": "Moai Island",
+    "description": "My new Decentraland project",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": ["0,0", "0,1","1,1","1,0"],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 16.85,
+        "y": 27.50,
+        "z": 23
+      },
+      "cameraTarget": {
+        "x": 16.85,
+        "y": 27.50,
+        "z": 17
+      }
+    }
+  ],
+  "requiredPermissions": ["ALLOW_TO_TRIGGER_AVATAR_EMOTE","ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"],
+  "featureToggles": {}
+}
